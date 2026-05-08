@@ -1,7 +1,7 @@
 <?php
 session_start();
 $error = '';
-
+// Updated today
 $conn = mysqli_connect("localhost", "root", "", "fees"); 
 if (!$conn) {
     die("Database connection failed: " . mysqli_connect_error());
