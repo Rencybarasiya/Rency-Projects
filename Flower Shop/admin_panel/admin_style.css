@@ -1,0 +1,74 @@
+body {
+			margin: 0;
+			padding: 0;
+			background-color: #ffe6f0; /* pastel pink background */
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: #333;
+		}
+
+		.frm-cnt {
+			max-width: 400px;
+			margin: 50px auto;
+			background-color: #fff0f5;
+			padding: 30px;
+			border-radius: 15px;
+			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+		}
+
+		form h3 {
+			text-align: center;
+			color: #d63384;
+			margin-bottom: 20px;
+		}
+
+		form div {
+			margin-bottom: 15px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 5px;
+			color: #b30059;
+		}
+
+		input[type="text"],
+		input[type="email"],
+		input[type="password"],
+		input[name="cpass"],
+		input[type="file"] {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ffb6c1;
+			border-radius: 8px;
+			box-sizing: border-box;
+		}
+
+		input[type="submit"] {
+			background-color: #ff99cc;
+			color: white;
+			padding: 12px;
+			border: none;
+			width: 100%;
+			border-radius: 8px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s ease;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #ff66a3;
+		}
+
+		p {
+			text-align: center;
+			margin-top: 15px;
+		}
+
+		a {
+			color: #cc0066;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
